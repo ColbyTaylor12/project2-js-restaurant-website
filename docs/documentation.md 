@@ -1,0 +1,67 @@
+# Restaurant
+
+Name of Restaurant 
+
+## Personas 
+
+Frugal Frank:
+Frank would like to be able to see the name of the item as well as the price of the item.  
+
+Worried Wanda:
+Wanda would like to be able to check both the location of the restaurant as well as the times they serve food. 
+
+Critical Carol:
+Carol would like to be able to easily navigate both the information as well as the menu items. 
+
+Menu Manny:
+Would like to see a diverse menu with different categories to satsify different levles of hunger.
+
+## Stories 
+
+* As Frank I would like to see the price listed with the food items on the menu. 5
+
+* As Wanda I would like to be able to view the hours of operations for the business. 2 
+
+* As Wanda I would also like to be able to see the location of the restaurant on a map. 10
+
+* As Carol I would like a precise and logical way of navigating the information as well as the menu items. 2
+
+* As Manny I would like to see a diverse menu with multiple sections to fit different desires. 3
+
+* As an anonymous user I would like to be able to see where I am in relation to the site as a whole. 2
+  
+## MVP 
+
+Must
+
+* Have a navbar that links to main info as well as menu sections. 
+
+* Have the location of the restaurant. 
+  
+* Have the hours of operation.
+
+* Have at least 8 items per menu section.
+
+Should
+
+* Should have a navbar with scroll spy to show relative location. 
+  
+* Have a map to show location of the restaurant.
+
+* Collapsible menu divs to view sections separately.
+
+* Prices featured with the menu items.
+  
+Could 
+
+* Could have navigation to restaurant through the location map. 
+
+* Could have images of the menu items. 
+  
+Wont
+
+* Have functional online ordering due to lack of knowledge.
+
+* Have functional social media share links. 
+
+* Make a reservation tab due to lack of knowledge. 
