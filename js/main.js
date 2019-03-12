@@ -14,7 +14,8 @@ async function loadMenu(){
    loadMenuItems(8, "collap5");
 }
 
-//Api call for appetizers to load items and create the div cards. 
+//Function will run based on the above parameters. 
+//Function will both build the card divs as well as fill with the menu items.  
 async function loadMenuItems(num, whereTo) {
     var app = "";
     var uri = url + num;
@@ -22,9 +23,11 @@ async function loadMenuItems(num, whereTo) {
             return response.json();
         })
         .then(function (myJson) {
- 
+            // app will add an open div with class.
+            // then it will generate an id specific to the item 
+            // Then the closing divs are added after the pulled information
             for (var i = 0; i < myJson.menu_items.length; i++) {
-                app += "<div class='card bg-dark text-white' id='item-" + i + "'><div class='card-body'>";
+                app += "<div class='card bg-dark text-success' id='item-" + i + "'><div class='card-body'>";
                 app += myJson.menu_items[i].description + "</div></div>";
             }
             console.log(output);
